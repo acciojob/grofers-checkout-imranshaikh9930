@@ -20,6 +20,7 @@ const getSum = () => {
     
     // Display the updated total in the table cell
     td.textContent = total;
+	td.setAttribute("id","ans");
     tr.appendChild(td);
 
     // If a total row already exists, remove it before adding the new one
